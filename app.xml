@@ -1,0 +1,28 @@
+<xml>
+  <navigation type="simple" backgroundColor="" backgroundImage="" contentOverlap="" itemsPosition="" textStyle="" textSize="" textFont="" iosStyleNavigation="">
+    <items>
+      <item icon="icon-menu.png" text="tab1" textColor="" selectedTextColor="" selectedIcon="" backgroundImage="" selectedBackgroundImage="" backgroundColor="" selectedBackgroundColor="" />
+      <item icon="icon-bookmark.png" text="tab2" textColor="" selectedTextColor="" selectedIcon="" backgroundImage="" selectedBackgroundImage="" backgroundColor="" selectedBackgroundColor="" />
+      <item icon="icon-global.png" text="tab3" textColor="" selectedTextColor="" selectedIcon="" backgroundImage="" selectedBackgroundImage="" backgroundColor="" selectedBackgroundColor="" />
+      <item icon="icon-edit.png" text="tab4" textColor="" selectedTextColor="" selectedIcon="" backgroundImage="" selectedBackgroundImage="" backgroundColor="" selectedBackgroundColor="" />
+    </items>
+  </navigation>
+  <targetplatform simulator="Android">Android</targetplatform>
+  <template price="199.99" id="TicTacToe" scaleWebPagesToBaseResolution="false" />
+  <prop id="appname" title="App Name">TicTacToe1</prop>
+  <prop id="tab1text" title="Tab1 Text">tab1</prop>
+  <prop id="tab1icon" title="Tab1 Icon">cover.png</prop>
+  <prop id="tab2text" title="Tab2 Text">tab2</prop>
+  <prop id="tab2icon" title="Tab2 Icon">index.png</prop>
+  <prop id="tab3text" title="Tab3 Text">tab3</prop>
+  <prop id="tab3icon" title="Tab3 Icon">content.png</prop>
+  <prop id="tab4text" title="Tab4 Text">tab4</prop>
+  <prop id="tab4icon" title="Tab4 Icon">coffee.png</prop>
+  <planname>Basic</planname>
+  <page id="tab3.html" type="form" kind="html" transition="" slidepageid="none" slidetransition="" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" />
+  <page id="tab2.html" type="html" transition="" slidepageid="" slidetransition="" hasreviews="no" hassend="no" hasfields="no" topad="no" bottomad="no" topadtype="none" bottomadtype="none" dynamicdata="false" jsonurl="" hasreviewhtmlkey="no" kind="html" />
+  <page id="tab4.html" type="html" transition="" slidepageid="" slidetransition="" hasreviews="no" hassend="no" hasfields="no" topad="no" bottomad="no" topadtype="none" bottomadtype="none" dynamicdata="false" jsonurl="" hasreviewhtmlkey="no" kind="html" />
+  <page id="index.html" type="iconmenu" kind="html" transition="" slidepageid="none" slidetransition="" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" />
+  <file id="appStyles.xml" newsfile="yes">
+  </file>
+</xml>

@@ -5,7 +5,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.egyapps.tictactoe"
         version   = "1.2"
-        version code ="4" >
+         >
 
     <name>Tic Tac Toe</name>
 
